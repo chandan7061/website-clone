@@ -1,0 +1,149 @@
+/* Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  background: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px 0;
+}
+
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 600;
+}
+
+.nav-link {
+  margin: 0 10px;
+  font-weight: 500;
+}
+
+.nav-link:hover {
+  color: #ffbe33 !important;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url("../images/hero-bg.jpg") no-repeat center/cover;
+  display: flex;
+  align-items: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+.hero p {
+  max-width: 600px;
+  margin: 15px 0;
+}
+
+/* Buttons */
+.btn-warning {
+  background: #ffbe33;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 30px;
+  font-weight: 500;
+}
+
+.btn-warning:hover {
+  background: #e69c00;
+}
+
+/* Offers */
+.offer-box {
+  background: #222831;
+  color: white;
+  padding: 40px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.offer-box:hover {
+  transform: scale(1.05);
+}
+
+/* Menu */
+.menu h2 {
+  font-weight: 600;
+}
+
+.menu-tabs span {
+  margin: 0 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.menu-tabs span:hover {
+  color: #ffbe33;
+}
+
+.card {
+  border: none;
+  border-radius: 15px;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+}
+
+.card-body {
+  background: #222831;
+  color: white;
+}
+
+/* About */
+.about {
+  background: #222831;
+  padding: 80px 0;
+}
+
+.about h2 {
+  font-weight: 600;
+}
+
+/* Booking */
+form input {
+  border-radius: 30px !important;
+  padding: 12px;
+}
+
+/* Testimonial */
+.test-box {
+  background: #f4f4f4;
+  padding: 25px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.test-box:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+.footer {
+  background: #222831;
+  padding: 40px;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 30px;
+  }
+}
